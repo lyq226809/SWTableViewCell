@@ -33,6 +33,7 @@
 		AF34B78217DEE2B800BD9082 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF34B78017DEE2B700BD9082 /* MainStoryboard.storyboard */; };
 		AF34B78517DEE2B800BD9082 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF34B78417DEE2B800BD9082 /* ViewController.m */; };
 		AFF15D1717F35E46007F5746 /* MI.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF15D1617F35E46007F5746 /* MI.png */; };
+		F9648B1B1B70AF9C00EE7884 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9648B1A1B70AF9C00EE7884 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		AF34B78417DEE2B800BD9082 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AFF15D1617F35E46007F5746 /* MI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MI.png; sourceTree = "<group>"; };
 		E9AD27C1AFAEBD8EA1DEF5A5 /* Pods-SWTableViewCellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTableViewCellTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWTableViewCellTests/Pods-SWTableViewCellTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9648B191B70AF9C00EE7884 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		F9648B1A1B70AF9C00EE7884 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +206,8 @@
 				AF34B76F17DEE2B300BD9082 /* Supporting Files */,
 				810308A3184D688D00C378F0 /* UMTableViewCell.h */,
 				810308A4184D688D00C378F0 /* UMTableViewCell.m */,
+				F9648B191B70AF9C00EE7884 /* TestViewController.h */,
+				F9648B1A1B70AF9C00EE7884 /* TestViewController.m */,
 			);
 			path = SWTableViewCell;
 			sourceTree = "<group>";
@@ -383,6 +388,7 @@
 				810308961846579B00C378F0 /* SWUtilityButtonView.m in Sources */,
 				810308A5184D688D00C378F0 /* UMTableViewCell.m in Sources */,
 				810308941846579B00C378F0 /* SWTableViewCell.m in Sources */,
+				F9648B1B1B70AF9C00EE7884 /* TestViewController.m in Sources */,
 				AF34B78517DEE2B800BD9082 /* ViewController.m in Sources */,
 				810308951846579B00C378F0 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
 				810308931846579B00C378F0 /* SWLongPressGestureRecognizer.m in Sources */,
